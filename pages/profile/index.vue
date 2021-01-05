@@ -68,6 +68,7 @@
 <script>
 import {getProfile} from '@/api/profile'
 export default {
+  middleware: 'authenticated',
   data() {
     return {
       profile: {}

@@ -1,7 +1,2 @@
-.DS_Store
-.idea/
-node_modules/
-npm-debug.log
-.editorconfig
-static/pc/
-dist/
+node_modules
+.nuxt

@@ -40,6 +40,7 @@
 <script>
 import {createArticles, getArticles, updateArticles} from '@/api/editor'
 export default {
+  middleware: 'authenticated',
   data() {
     return {
       article: {
