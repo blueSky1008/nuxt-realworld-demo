@@ -6,9 +6,6 @@
 
 <script>
 export default {
-  asyncData({query}) {
-    
-  },
   data() {
     return {
       
